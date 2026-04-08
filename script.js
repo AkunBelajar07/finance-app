@@ -101,6 +101,9 @@ function render() {
 document.getElementById("btnSimpan").addEventListener("click", tambah);
 
 // ================= VIEWER MODE =================
-if (role === "viewer") {
-  document.getElementById("formContainer")?.remove();
-}
+window.addEventListener("DOMContentLoaded", () => {
+  if (role === "viewer") {
+    const form = document.getElementById("formContainer");
+    if (form) form.remove();
+  }
+});
