@@ -34,7 +34,7 @@
   </div>
 
   <!-- Saldo -->
-  <div id="formContainer" class="bg-white p-4 rounded-xl shadow mb-4 space-y-2">
+  <div class="bg-white p-4 rounded-xl shadow text-center mb-4">
     <h2 id="saldo" class="text-2xl font-bold">Rp 0</h2>
   </div>
 
@@ -45,9 +45,11 @@
   <input id="filterTanggal" type="date"
     class="w-full p-2 mb-4 border rounded-lg">
 
-  <!-- Form -->
-  <div class="bg-white p-4 rounded-xl shadow mb-4 space-y-2">
+  <!-- ✅ FORM (SUDAH BENAR) -->
+  <div id="formContainer" class="bg-white p-4 rounded-xl shadow mb-4 space-y-2">
+
     <input id="deskripsi" placeholder="Deskripsi" class="w-full p-2 border rounded-lg">
+
     <input id="jumlah" type="number" placeholder="Jumlah" class="w-full p-2 border rounded-lg">
 
     <select id="kategori" class="w-full p-2 border rounded-lg">
@@ -67,6 +69,7 @@
     <button id="btnSimpan" class="w-full bg-blue-500 text-white p-2 rounded-lg">
       Simpan
     </button>
+
   </div>
 
   <!-- Chart -->
@@ -78,9 +81,9 @@
   <div id="list" class="space-y-2"></div>
 
 </div>
+
+<!-- ✅ HANYA INI (JANGAN DOUBLE) -->
 <script type="module" src="script.js"></script>
-<!-- JS -->
-<script src="script.js"></script>
 
 </body>
 </html>
