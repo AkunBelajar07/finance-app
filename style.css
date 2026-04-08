@@ -1,0 +1,14 @@
+/* Tambahan styling kecil */
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #3b82f6;
+}
